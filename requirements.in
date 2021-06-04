@@ -1,0 +1,13 @@
+jupyter
+keras
+librosa
+matplotlib
+numpy
+opencv-python
+pillow
+pydub
+scipy
+tensorflow
+
+# dev
+pip-tools
