@@ -1,9 +1,6 @@
-pyenv install 3.8.3 -s
-source virtualenvwrapper.sh
+#!/bin/sh
+set -v
 
-rmvirtualenv album-gen
-mkvirtualenv \
-    -a . \
-    -p ~/.pyenv/versions/3.8.3/bin/python \
-    -r requirements.txt \
-    album-gen
+pyenv install 3.8.3 -s
+pyenv virtualenv 3.8.3 album-gen
+./pip-compile-all.sh
