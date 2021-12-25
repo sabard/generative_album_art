@@ -79,9 +79,11 @@ ptyprocess==0.6.0         # via pexpect, terminado
 pyasn1-modules==0.2.8     # via google-auth
 pyasn1==0.4.8             # via pyasn1-modules, rsa
 pycparser==2.20           # via cffi
+pydot==1.4.2              # via -r requirements.in
+pydotplus==2.0.2          # via -r requirements.in
 pydub==0.24.1             # via -r requirements.in
 pygments==2.7.3           # via ipython, jupyter-console, jupyterlab-pygments, nbconvert, qtconsole
-pyparsing==2.4.7          # via matplotlib, packaging
+pyparsing==2.4.7          # via matplotlib, packaging, pydot, pydotplus
 pyrsistent==0.17.3        # via jsonschema
 python-dateutil==2.8.1    # via jupyter-client, matplotlib
 pyyaml==5.3.1             # via keras

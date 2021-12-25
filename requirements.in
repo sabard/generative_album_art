@@ -5,6 +5,8 @@ matplotlib
 numpy
 opencv-python
 pillow
+pydot
+pydotplus
 pydub
 scipy
 tensorflow
